@@ -1,7 +1,7 @@
 ---
 title: '建站经历'
 pubDatetime: 2023-12-20
-description: '从hexo框架迁移到Astro框架'
+description: '从hexo迁移到Astro框架'
 author: 'Parsifal'
 
 ---
