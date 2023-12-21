@@ -8,7 +8,7 @@ tags: ['computer']
 
 # Neovim的前世今生
 
-![head](../../../public/nvim教程/nvim01.jpg)
+![head](../../assets/images/nvim_totual/nvim01.jpg)
 
 想要谈谈 Neovm，那就不得不谈谈它的发源---大名鼎鼎的Vim编辑器。
 
