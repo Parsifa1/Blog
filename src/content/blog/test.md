@@ -1,6 +1,6 @@
 ---
 title: 'Website Testing'
-pubDatetime: 2023-12-21T08:10Z
+pubDatetime: 2023-12-21T08:10:00Z
 description: '从hexo迁移到Astro框架'
 author: 'Parsifal'
 

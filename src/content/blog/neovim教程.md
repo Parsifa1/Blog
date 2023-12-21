@@ -1,6 +1,6 @@
 ---
 title: 'Neovim浅谈与安利'
-pubDatetime: 2023-12-21T08:00Z
+pubDatetime: 2023-12-21T08:00:00Z
 description: '你应该使用这个世界上最快的编辑器（确信'
 author: 'Parsifal'
 tags: ['computer']
