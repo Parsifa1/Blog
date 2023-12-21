@@ -18,19 +18,19 @@ tags: ['computer']
 
 > Neovim 项目的发起人 tarruda3 曾经给 Vim 提了一个 patch，为 Vim 增加了 job 功能，可以帮助 Vim 异步执行操作。不过遗憾的是，该 patch 不知为什么没有被 Bram 接受。因此 Tarruda 在 2014 年 fork 了 Vim，发起了 Neovim 项目，开始改变 Vim 的开发模式，遵循现代开源项目的开发流程，同时对 Vim 杂乱的代码进行了大的清理和重构，去掉了对老旧系统的支持，同时添加了新的特性。
 
-这就是Neovim诞生的契机。从此 Neovim 就和 Vim 走上了两条截然不同的道路。Neovim天然就更受开源社区欢迎，只因 Neovim 就是为此而生的。Neovim 实现了很多新特性，例如内置 terminal 和异步功能都是 Neovim 率先实现，然后 Vim 才跟进实现的，可能是 Bram 也感受到了来自 Neovim 竞争的压力，不希望自己的项目失去开发者的青睐，加快了开发的步伐。遗憾的是，Vim 重新实现的异步功能，方法命名上选择了与 Neovim 不兼容，在 Neovim 中，发起和停止 job 的方法是 jobstart() 和 jobstop()，但是 Vim 使用的是 job_start() 和 job_stop()，这也给开发者和用户造成了不必要的麻烦。
+这就是Neovim 诞生的契机。从此 Neovim 就和 Vim 走上了两条截然不同的道路。Neovim 天然就更受开源社区欢迎，只因 Neovim 就是为开源而生的。Neovim 实现了很多新特性，例如内置 terminal 和异步功能都是 Neovim 率先实现，然后 Vim 才跟进实现的，可能是 Bram 也感受到了来自 Neovim 竞争的压力，不希望自己的项目失去开发者的青睐，加快了开发的步伐。遗憾的是，Vim 重新实现的异步功能，方法命名上选择了与 Neovim 不兼容，在 Neovim 中，发起和停止 job 的方法是 jobstart() 和 jobstop()，但是 Vim 使用的是 job_start() 和 job_stop()，这也给开发者和用户造成了不必要的麻烦。
 
-如今的Neovim，已经原生内建了LSP支持，即[Language Server Protocol](https://microsoft.github.io/language-server-protocol/), 这个协议能够帮助任何一个文本编辑器，拥有贴近IDE的静态检查，格式化支持。同时还支持一种很快的语法解析库[Tree-sitter](https://tree-sitter.github.io/), 能够提供轻量，快速的基于语义的代码高亮。
+如今的 Neovim，已经原生内建了 LSP 支持，即 [Language Server Protocol](https://microsoft.github.io/language-server-protocol/), 这个协议能够帮助任何一个文本编辑器，拥有贴近 IDE 的静态检查，格式化支持。同时还支持一种很快的语法解析库 [Tree-sitter](https://tree-sitter.github.io/), 能够提供轻量，快速的基于语义的代码高亮。
 
-在这些的基础上，Neovim 拥有一个极其活跃和庞大社区，产出了数量丰富的优秀插件，其中很多都广受好评。不夸张的说，如今Neovim已经不亚于一个普通的IDE了。
+在这些的基础上，Neovim 拥有一个极其活跃和庞大社区，产出了数量丰富的优秀插件，其中很多都广受好评。不夸张的说，如今 Neovim 已经不亚于一个普通的IDE了。
 
 ![Neovim效果](../../assets/images/nvim_totual/nvim02.png) 
 
 # Neovim的简单配置
 
-当你考虑要试试Neovim的时候，可以再来看看这个部分。
+> 当你考虑要试试 Neovim 的时候，可以再来看看这个部分。
 
-Neovim的原生语言支持是lua，这门语言简单易学，你并不需要单独去学它，在学习配置的过程中，自然而然就会学会这门语言。
+Neovim的原生语言支持是 lua，这门语言简单易学，你并不需要单独去学它，在学习配置的过程中，自然而然就会学会这门语言。
 
 我的Neovim配置在[这里](https://github.com/Parsifa1/nvim), 配置的时候可以用作参考。
 
