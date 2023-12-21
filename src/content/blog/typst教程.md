@@ -1,6 +1,6 @@
 ---
 title: '简单的Typst教程'
-pubDatetime: 2023-12-21
+pubDatetime: 2023-12-21T08:20Z
 description: '使用typst，与\反斜杠说再见'
 author: 'Parsifal'
 tags: ['computer']
