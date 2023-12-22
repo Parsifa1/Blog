@@ -1,16 +1,16 @@
 ---
-import { LOCALE, SITE } from "@config";
-import "@styles/base.css";
-import { ViewTransitions } from "astro:transitions";
+import { LOCALE, SITE } from '@config'
+import '@styles/base.css'
+import { ViewTransitions } from 'astro:transitions'
 
-const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION
 
 export interface Props {
-  title?: string;
-  author?: string;
-  description?: string;
-  ogImage?: string;
-  canonicalURL?: string;
+  title?: string
+  author?: string
+  description?: string
+  ogImage?: string
+  canonicalURL?: string
 }
 
 const {
@@ -19,12 +19,12 @@ const {
   description = SITE.desc,
   ogImage = SITE.ogImage,
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
-} = Astro.props;
+} = Astro.props
 
 const socialImageURL = new URL(
-  ogImage ?? SITE.ogImage ?? "og.png",
+  ogImage ?? SITE.ogImage ?? 'og.png',
   Astro.url.origin
-).href;
+).href
 ---
 
 <!doctype html>
