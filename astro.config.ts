@@ -8,7 +8,7 @@ import { SITE } from './src/config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'parsifa1.github.io',
+  site: 'Blog',
   integrations: [
     tailwind({
       applyBaseStyles: false,
