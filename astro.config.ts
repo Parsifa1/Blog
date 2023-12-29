@@ -8,7 +8,7 @@ import { SITE } from './src/config'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'Blog',
+  site: 'https://blog.cloudti.de',
   integrations: [
     tailwind({
       applyBaseStyles: false,
