@@ -1,20 +1,22 @@
 ---
 import AboutLayout from '../layouts/AboutLayout.astro'
-import { Image } from 'astro:assets'
 
 const aboutProps = {
   frontmatter: {
     title: `About`,
   },
 }
-
-import avatar from '../assets/images/avatar.jpg'
 ---
 
 <AboutLayout {...aboutProps}>
   <h3>云楼汐</h3>
 
-  <Image src={avatar} alt="avatar" width="150" quality="max" class="float-right"/>
+  <img
+    src="../../public/avatar.jpg"
+    alt="avatar"
+    width="140"
+    class="float-right"
+  />
 
   <h4>是在哈尔滨上学的<del>准</del>大二学生，热爱游戏，音乐...</h4>
 
