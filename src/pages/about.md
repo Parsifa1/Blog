@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-<img src="../../public/icon.jpg" width=20% align='right'/>
+<img src="../../public/avatar.jpg" alt="avatar" width=20% align='right'/>
 
 ### 云楼汐
 
