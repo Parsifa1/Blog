@@ -73,8 +73,5 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,mdx,json,astro}": ["dprint fmt --allow-no-files"]
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "sharp"]
   }
 }
